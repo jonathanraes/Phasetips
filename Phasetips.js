@@ -318,6 +318,9 @@ var Phasetips = function(localGame, options) {
         },
         simulateOnHoverOut: function () {
             _this.onHoverOut();
+        },
+        setParent: function(parent) {
+            parent.addChild(_this.mainGroup);
         }
     };
 };
